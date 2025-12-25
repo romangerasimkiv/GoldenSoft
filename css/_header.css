@@ -1,0 +1,147 @@
+.header__top {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header .container {
+  background-color: grey;
+}
+.header__promo {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: inline-block;
+  margin-left: 452px;
+  letter-spacing: 12%;
+  line-height: 26px;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "SfProDisplay", sans-serif;
+  font-weight: 500;
+}
+.header__link {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 293px;
+  font-size: 16px;
+  letter-spacing: 12%;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: "SfProDisplay", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+.header__main {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  margin-left: 100px;
+  margin-right: 101.5px;
+  margin-top: 22px;
+}
+.header__contacts {
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+}
+.header__contacts img {
+  margin-right: 8px;
+}
+.header__cart {
+  margin-left: 30px;
+}
+.header__cart img {
+  margin-right: 24px;
+}
+.header__phone {
+  font-size: 18px;
+  font-family: "SfProDisplay", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  color: #454F5B;
+}
+
+.nav {
+  margin-top: 19px;
+}
+.nav__list {
+  margin-right: 260px;
+}
+.nav__list li {
+  display: inline-block;
+  font-size: 20px;
+  line-height: auto;
+  letter-spacing: 0%;
+}
+.nav__link {
+  margin-right: 32px;
+  color: black;
+  text-decoration: none;
+}
+.nav__item {
+  font-family: "SfProText", sans-serif;
+  font-weight: 300;
+  line-height: auto;
+  font-size: 20px;
+  color: #161C24;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .nav {
+    display: none;
+  }
+
+  .nav.menu--active {
+    margin: 0;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background: #fff;
+    padding: 20px;
+    z-index: 1000;
+    transition: right 8.3s ease;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .header__promo {
+    margin-left: 15%;
+  }
+
+  .header__link {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero img {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header__main {
+    margin-bottom: 20px;
+  }
+}

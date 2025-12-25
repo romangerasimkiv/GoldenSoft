@@ -1,0 +1,11 @@
+.blue-button {
+    &:hover {
+        background-color: $color-blue-hover;
+        cursor: pointer;
+    }
+    &:active {
+        background-color: $color-blue-active;
+        cursor: pointer;
+    }
+}
+
