@@ -338,6 +338,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-bottom: 170px;
 }
 .hero__content {
   display: flex;
@@ -427,7 +428,7 @@
 }
 .stats .container {
   background-color: #F2F8FF;
-  margin: 95px auto;
+  margin: 0px auto;
   padding: 40px 0;
 }
 .stats__wrap {
