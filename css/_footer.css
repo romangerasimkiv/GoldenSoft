@@ -1,0 +1,126 @@
+.footer .container {
+  background-color: #0D2436;
+  padding-top: 55px;
+  padding-bottom: 25px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 196px;
+}
+.footer__top {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+.footer__brand {
+  margin-top: 9px;
+  margin-left: 100px;
+}
+.footer__socials {
+  display: flex;
+  gap: 24px;
+  margin-left: 100px;
+}
+.footer__col {
+  display: grid;
+  grid-template-columns: 236px 275px 280px 226px;
+}
+.footer__title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #ffffff;
+  font-family: "SfProText", sans-serif;
+  margin-bottom: 24px;
+}
+.footer__item {
+  margin-bottom: 16px;
+  text-decoration: none;
+  font-family: "SfProText", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  list-style-type: none;
+  color: #ffffff;
+}
+.footer__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer__list {
+  list-style-type: none;
+}
+.footer__emails, .footer__phones {
+  font-family: "SfProText", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #C4CDD5;
+  margin-bottom: 16px;
+}
+.footer__phones_list-item, .footer__emails_list-item {
+  margin-bottom: 12px;
+}
+.footer__phones_list {
+  margin-bottom: 24px;
+}
+.footer__emails_list-item:nth-of-type(2) {
+  margin-bottom: 0px;
+}
+.footer__bottom {
+  display: flex;
+  flex-direction: column;
+  padding-top: 43px;
+  width: 100%;
+}
+.footer__address {
+  color: #ffffff;
+  font-family: "SfProText", sans-serif;
+}
+.footer__line {
+  height: 1px;
+  margin-bottom: 24px;
+  background-color: #D9D9D9;
+}
+.footer__copy {
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "SfProDisplay", sans-serif;
+  line-height: auto;
+  color: #C4CDD5;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__col {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer__inner {
+    gap: 5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer__col {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 290px 158px;
+    gap: 35px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer__col {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 290px 158px;
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .footer__col {
+    grid-template-columns: 1fr;
+    grid-template-rows: 210px 295px 119px 172px;
+    gap: 10px;
+  }
+}
