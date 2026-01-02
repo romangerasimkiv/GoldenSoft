@@ -428,7 +428,7 @@
 }
 .stats .container {
   background-color: #F2F8FF;
-  margin: 0px auto;
+  margin: 0px auto 95px auto;
   padding: 40px 0;
 }
 .stats__wrap {
