@@ -57,7 +57,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+.body{
+  overflow-x: hidden;
+}
 .container {
   max-width: 1440px;
   margin: 0 auto;
